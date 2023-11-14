@@ -65,24 +65,24 @@ const Contact = () => {
             }
     };
   return (
-    <div name="contact" className='bg-yellow-50 w-full p-20'>
+    <div name="contact" className='bg-yellow-50 w-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-yellow-500'>
-            <div>
+            <div className='pt-16'>
                 <p className='text-4xl font-bold border-b-4 border-yellow-900 inline'>Contact</p>
             </div>
-        <div className='p-6 justify-between gap-10 max-w-screen-lg mx-auto w-full text-black flex'>
+        <div className='p-0 lg:px-5 justify-between gap-10 max-w-screen-lg mx-auto w-full text-black flex'>
             <div className='lg:grid lg:grid-cols-2 w-full py-8 gap-10 sm:grid sm:grid-cols-1'>
-            <p className='flex w-full text-lg justify-between text-gray py-4 border-b-[1px] border-b-zinc-800'>
-                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-2 rounded-md flex items-center justify-center'>Address:</span>Manjeri, Malappuram
+            <p className='flex text-lg justify-between text-gray py-4 border-b-[1px] border-b-zinc-800'>
+                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-0 lg:px-2 rounded-md flex items-center justify-center'>Address:</span>Manjeri, Malappuram
                 </p>
                 <p className='flex w-full text-lg justify-between text-gray py-4 border-b-[1px] border-b-zinc-800'>
-                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-2 rounded-md flex items-center justify-center'>Phone:</span>+91 9496980008
+                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-0 lg:px-2 rounded-md flex items-center justify-center'>Phone:</span>+91 9496980008
                 </p>
                 <p className='flex w-full text-lg justify-between text-gray py-4 border-b-[1px] border-b-zinc-800'>
-                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-2 rounded-md flex items-center justify-center'>Email:</span>arshuarshad8019@gmail.com
+                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-0 lg:px-2 rounded-md flex items-center justify-center'>Email:</span>arshuarshad8019@gmail.com
                 </p>
                 <p className='flex w-full text-lg justify-between text-gray py-4 border-b-[1px] border-b-zinc-800'>
-                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-2 rounded-md flex items-center justify-center'>Freelance:</span>Available
+                <span className='bg-yellow-500 text-gray-700 text-sm font-medium px-0 lg:px-2 rounded-md flex items-center justify-center'>Freelance:</span>Available
                 </p>
             </div>
         </div>
@@ -92,7 +92,7 @@ const Contact = () => {
             </div>            {
             successMsg ? <p className='text-center text-base font-titleFont p-20 text-yellow-500'>{successMsg}</p>:(
                 <form id='form' action='https://getform.io/f/49e5d7da-8871-4dc5-adfe-0d44837e7674' method='Post' className='p-6 flex flex-col gap-6'>
-                <div className='w-full flex gap-10'>
+                <div className='w-full gap-8 grid lg:flex md:flex'>
                     <input 
                     onChange={handleName}
                     value={clientName}

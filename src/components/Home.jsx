@@ -13,7 +13,7 @@ const Home = () => {
     });
   return (
     <div name="home" style={{ backgroundImage:`url(${MyImage})`}} className='h-screen w-full bg-no-repeat bg-cover'>
-        <div className='max-w-screen-lg ml-16 flex flex-col items-center justify-center h-full px-4 md:flex-row w-full'>
+        <div className='max-w-screen-lg ml-2 lg:ml-16 flex flex-col items-center justify-center h-full px-4 md:flex-row w-full'>
             <div className='flex flex-col justify-center h-full mr-auto'>
                 <h2 className='text-4xl w-48 sm:text-7xl font-bold text-white'>I'm a {text}<Cursor cursorBlinking="false" cursorStyle="|"/></h2>
                 <div className=' bg-yellow-100 bg-opacity-40 rounded px-1'>

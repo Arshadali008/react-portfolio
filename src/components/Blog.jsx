@@ -14,35 +14,35 @@ const Blog = () => {
                 <p className='py-6 text-yellow-900'>Some of my latest sketches</p>
             </div>
         <div className='grid py-8 lg:grid-cols-2 gap-10 sm:grid-cols-1'>
-            <div className='px-16 lg:px-0'>
+            <div className='px-6 lg:px-0'>
                 <BlogCard
                     image={blogImgOne}
                     title="march 26,2022"
                     subTitle="Edsverga meet at Knowledge City 2022"
                     category="Travel"
-                />,
+                />
                 <BlogCard
                     image={blogImgTwo}
                     title="september 07,2022"
                     subTitle="fresh your mindset"
                     category="Travel"
-                />,
+                />
                 
 
             </div>
-            <div className='px-16 lg:px-0'>
+            <div className='px-6 lg:px-0'>
                 <BlogCard
                     image={blogImgThree}
                     title="january 27,2023"
                     subTitle="Refreshing energy"
                     category="Travel"
-                />,
+                />
                 <BlogCard
                     image={blogImgFour}
                     title="november 13,2022"
                     subTitle="Trazco meet at Kochi"
                     category="Travel"
-                />,
+                />
                 </div>
         </div>
     </div>
